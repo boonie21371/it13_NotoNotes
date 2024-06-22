@@ -1,0 +1,22 @@
+.add-note-container {
+    padding: 2em;
+
+    @media screen and (orientation: landscape) {
+        padding: 1em 50vw;
+        padding-left: 0.1px;
+    }
+
+    .ql-editor {
+        font-family: 'Noto Sans Mono', monospace;
+    }
+
+    .ql-toolbar {
+        border-top-left-radius: 12px; 
+        border-top-right-radius: 12px;
+    }
+
+    .ql-container {
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+}
